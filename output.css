@@ -1,0 +1,23 @@
+body {
+  margin: 1em auto;
+  padding: 0 1em;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 1.15em;
+  max-width: 35em;
+}
+
+p {
+  line-height: 1.3em;
+}
+
+@media screen and (min-width: 21em) {
+  p {
+		line-height: calc(((1.5 - 1.3) * ((100vw) - 21em) / (35 - 21)) + 1.3em);
+	}
+}
+
+@media (min-width: 35em) {
+  p {
+		line-height: 1.5em;
+	}
+}

@@ -1,0 +1,30 @@
+{
+  "name": "postcss-scale",
+  "version": "1.0.0",
+  "description": "Scale values from one range to another. Because why not.",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Bram Stein <b.l.stein@gmail.com> (http://www.bramstein.com)",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "postcss": "^5.1.2",
+    "postcss-value-parser": "^3.3.0"
+  },
+  "devDependencies": {
+    "postcss-cli": "^2.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bramstein/postcss-scale.git"
+  },
+  "keywords": [
+    "postcss",
+    "css",
+    "locks",
+    "scale"
+  ],
+  "bugs": {
+    "url": "https://github.com/bramstein/postcss-scale/issues"
+  },
+  "homepage": "https://github.com/bramstein/postcss-scale#readme"
+}
