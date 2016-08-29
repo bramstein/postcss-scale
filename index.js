@@ -9,7 +9,7 @@ module.exports = postcss.plugin('postcss-scale', function () {
       }
 
       if (decl.value.indexOf('scale(') !== -1) {
-        parsedValue = valueParser(decl.value);
+        var parsedValue = valueParser(decl.value);
 
         parsedValue.walk(function (node) {
           if (node.type === 'function' && node.value === 'scale') {
